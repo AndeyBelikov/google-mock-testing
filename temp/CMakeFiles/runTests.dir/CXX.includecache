@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andrey/dev/gooleMock/test_main.cpp
+iostream
+-
+vector
+-
+gtest/gtest.h
+/home/andrey/dev/gooleMock/gtest/gtest.h
+gmock/gmock.h
+/home/andrey/dev/gooleMock/gmock/gmock.h
+
